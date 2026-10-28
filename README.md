@@ -3,7 +3,7 @@
 **Track:** 1 · Rafeeq in production
 **Team:** Salman Alhammad (individual)
 **Model:** `anthropic/claude-haiku-5.5` through OpenRouter, using my own Anthropic key. The agent and the judge grader use the same model, and OpenRouter's free fallback models are switched off, so every result comes from one model.
-**Why this model:** I first used the course's free model, but it hit OpenRouter's free daily request limit in the middle of my first eval run. Haiku 5.5 is Anthropic's cheapest current model and supports tool calling, and a full eval costs cents. My own eval is the evidence: 15/15 tasks on both configurations (see Evaluation). I did not compare other models.
+**Why this model:** I first used the course's free model, but it hit OpenRouter's free daily request limit in the middle of my first eval run. Haiku 5.5 is Anthropic's cheapest current model and supports tool calling, and a full eval costs cents. My own eval is the evidence: 15/15 tasks on both configurations.
 
 ## Problem
 Applicants ask Madar Municipal Services about permits (building, renovation, signage, food truck, event): fees, rules, status, inspections, refunds. Answers by hand are slow and inconsistent, and a mistake can leak another person's data or change an application.
