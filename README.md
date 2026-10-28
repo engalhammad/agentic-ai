@@ -69,6 +69,8 @@ flowchart LR
 | escalate | write | no (local) | yes | none |
 
 ## Evaluation
+<img width="316" height="622" alt="image" src="https://github.com/user-attachments/assets/601abe45-84ea-4c6e-b91b-dcdd1d0849e5" />
+
 Suite: 15 tasks in `capstone/tasks.jsonl` (8 fees, 2 rules, 2 privacy, 1 security, 1 scope, 1 action; 2 in Arabic). Graders: contains_any, not_contains, tool_called, tool_not_called, db (checks the database), judge.
 Configurations: **A** = `AGENTS.md`; **B** = A + a "Facts" rule (never state a fee, date or slot from memory; call the tool; search policies first). Same model, one change.
 
